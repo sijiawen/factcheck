@@ -42,11 +42,11 @@ const Home = () => {
         <div className="header">
           <div className="header-title">
             {/* Change your headline here */}
-            <h1>magic blog post generator</h1>
+            <h1>AutoFactcheck</h1>
           </div>
           <div className="header-subtitle">
             <h2>
-              input the title to your blog post below, we'll generate the rest.
+              Misinformation is rampant and fact checking is tedious. This website uses artificial intelligence to instantly verify if a statement from Twitter, a news article, or an interview is accurate. Be as specfic possible.
             </h2>
           </div>
         </div>
@@ -69,7 +69,7 @@ const Home = () => {
                 {isGenerating ? (
                   <span className="loader"></span>
                 ) : (
-                  <p>Generate</p>
+                  <p>Factcheck</p>
                 )}
               </div>
             </a>
@@ -79,7 +79,7 @@ const Home = () => {
             <div className="output">
               <div className="output-header-container">
                 <div className="output-header">
-                  <h3>Output</h3>
+                  <h3>Decision</h3>
                 </div>
               </div>
               <div className="output-content">
@@ -91,13 +91,11 @@ const Home = () => {
       </div>
       <div className="badge-container grow">
         <a
-          href="https://buildspace.so/builds/ai-writer"
           target="_blank"
           rel="noreferrer"
         >
           <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build with buildspace</p>
+            <p>built by sj</p>
           </div>
         </a>
       </div>

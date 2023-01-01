@@ -10,7 +10,7 @@ body {
     display: flex;
     place-content: center flex-start;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(#050f2c, #0085ad);
     flex-flow: column nowrap;
     gap: 10px;
     height: 100vh;
@@ -172,7 +172,7 @@ textarea {
 .generate-button {
     place-content: flex-start;
     align-items: flex-start;
-    background-color: rgb(255, 79, 18);
+    background-color: #ff9933;
     border-radius: 100px;
     display: flex;
     flex: 0 0 auto;
@@ -265,7 +265,7 @@ textarea {
 }
 
 .grow:hover {
-    transform: scale(1.1);
+    transform: scale(1.0);
 }
 
 .output {
