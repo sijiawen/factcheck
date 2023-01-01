@@ -10,7 +10,7 @@ body {
     display: flex;
     place-content: center flex-start;
     align-items: center;
-    background-image: linear-gradient(#050f2c, #0085ad);
+    background-image: url("sky.webp");
     flex-flow: column nowrap;
     gap: 10px;
     height: 100vh;
@@ -172,7 +172,7 @@ textarea {
 .generate-button {
     place-content: flex-start;
     align-items: flex-start;
-    background-color: #ff9933;
+    background-color: #880808;
     border-radius: 100px;
     display: flex;
     flex: 0 0 auto;
