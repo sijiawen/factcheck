@@ -10,7 +10,7 @@ body {
     display: flex;
     place-content: center flex-start;
     align-items: center;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #ac3b61, #123c69, #bab2b5, #eee2dc);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     flex-flow: column nowrap;
