@@ -10,7 +10,7 @@ body {
     display: flex;
     place-content: center flex-start;
     align-items: center;
-    background-image: url("sky.webp");
+    background-image: url("sky.webp"); 
     flex-flow: column nowrap;
     gap: 10px;
     height: 100vh;
@@ -59,7 +59,7 @@ body {
 }
 
 .header-subtitle h2 {
-    font-size: 20px;
+    font-size: 21px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.4em;
