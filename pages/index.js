@@ -91,11 +91,13 @@ const Home = () => {
       </div>
       <div className="badge-container grow">
         <a
+          href="https://github.com/sijiawen/factcheckextension"
           target="_blank"
           rel="noreferrer"
         >
           <div className="badge">
-            <p>built by sj</p>
+            <Image src={buildspaceLogo} alt="buildspace logo" />
+            <p>extension</p>
           </div>
         </a>
       </div>
